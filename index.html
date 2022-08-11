@@ -20,7 +20,7 @@
         <!--==================== HEADER ====================-->
         <header class="header" id="header">
             <nav class="nav container">
-                <a href="" class="nav__logo">Jemima</a>
+                <a href="" class="nav__logo">Jemima Vijayasenan</a>
 
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list grid">
@@ -114,7 +114,7 @@
                             <h1 class="home__title">Hi! I'm Jemima!</h1>
                             <h3 class="home__subtitle">Developer</h3>
                             <p class="home__description">I'm gonna be so happy if this website works lmao</p>
-                            <a href="#contact" class="button button--flex">
+                            <a href="#contact" class="button button--flex contact__button">
                                 Contact Me <i class="uil uil-message button__icon"></i>
                             </a>
                         </div>
@@ -633,7 +633,7 @@
             <!--==================== CONTACT ME ====================-->
             <section class="contact section" id="contact">
                 <h2 class="section__title">Contact Me</h2>
-                <span class="section__subtitle">Get in Touch</span>
+                <span class="section__subtitle">Send me a message! I'll get back to you ASAP!</span>
 
                 <div class="contact__container container grid">
                     <div>
@@ -656,34 +656,40 @@
                         </div>
                     </div>
 
-                    <form action="" class="contact__form grid">
+                    <form action="https://getform.io/f/b387ae89-8cdf-47b1-bcfa-67504e74acf5" method="POST" class="contact__form grid">
                         <div class="contact__inputs grid">
                             <div class="contact__content">
                                 <label for="" class="contact__label">Name</label>
-                                <input type="text" class="contact__input">
+                                <input type="text" name="name" class="contact__input">
                             </div>
 
                             <div class="contact__content">
                                 <label for="" class="contact__label">Email</label>
-                                <input type="email" class="contact__input">
+                                <input type="email" name="email__address" class="contact__input">
                             </div>
                         </div>
 
-                        <div class="contact__content">
+                        <!-- <div class="contact__content">
                             <label for="" class="contact__label">Project</label>
-                            <input type="text" class="contact__input">
-                        </div>
+                            <input type="text" name="project" class="contact__input">
+                        </div> -->
 
                         <div class="contact__content">
                             <label for="" class="contact__label">Message</label>
-                            <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                            <textarea name="message" id="" cols="0" rows="7" class="contact__input"></textarea>
                         </div>
 
                         <div>
-                            <a href="#" class="button button-flex">
+                            <button type ="submit" class="button button--flex contact__button">
                                 Send Message
-                                <i class="uil uil-message button-icon"></i>
-                            </a>
+                                <i class="uil uil-message button__icon"></i>
+
+                            </button>
+                            <!-- <a href="#" class="button button--flex">
+                                Send Message
+                                <i class="uil uil-message button__icon"></i>
+                            </a> -->
+                            
                         </div>
                     </form>
                 </div>
@@ -709,7 +715,7 @@
                         </li>
 
                         <li>
-                            <a href="#contact" class="footer__link">Contact Me</a>
+                            <a href="#contact" class="footer__link">Contact</a>
                         </li>
                     </ul>
 
