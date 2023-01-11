@@ -39,7 +39,7 @@
     --font-medium: 500;
     --font-semi-bold: 600;
 
-    /*========== Margenes Bottom ==========*/
+    /*========== Margines Bottom ==========*/
     /* .25rem = 4px, .5rem = 8px, .75rem = 12px ... */
     --mb-0-25: .25rem;
     --mb-0-5: .5rem;
@@ -390,6 +390,7 @@ img {
 }
 
 .about__description{
+  margin-top: var(--mb-2-5);
   text-align: center;
   margin-bottom: var(--mb-2-5);
 
@@ -602,11 +603,20 @@ img {
 /*==================== PORTFOLIO ====================*/
 .portfolio__container{
   overflow:initial;
+  align-items: center;
 }
 
 .portfolio__content{
+  display: flex;
   padding: 0 1.5rem;
+  justify-self: center;
+  align-items: center;
   
+}
+
+.swiper-wrapper{
+  display: flex;
+  align-items: center;
 }
 
 .portfolio__img{
@@ -1032,17 +1042,17 @@ img {
     width: 350px;
   }
 
-  .about__description{
+  /*.about__description{
     text-align: initial;
-  }
+  }*/
 
   .about__info{
     justify-content: space-between;
   }
 
-  .about__buttons{
+  /*.about__buttons{
     justify-content: initial;
-  }
+  }*/
 
   .qualification__tabs{
     justify-content: center;
